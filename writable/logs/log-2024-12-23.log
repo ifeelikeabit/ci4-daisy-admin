@@ -1,0 +1,628 @@
+CRITICAL - 2024-12-23 12:13:34 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: Users]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 12:13:38 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: user]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 12:13:49 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: user]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 12:13:49 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: user]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 12:13:50 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: user]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 12:13:50 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: user]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:08:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: User/]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:08:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: User]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:09:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "User.index"
+[Method: GET, Route: User]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:09:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "User.index"
+[Method: GET, Route: User]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:09:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "User.php"
+[Method: GET, Route: User]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:09:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "User.php"
+[Method: GET, Route: User]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:21:54 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: CLI, Route: migrate]
+in SYSTEMPATH/Database/Database.php on line 143.
+ 1 SYSTEMPATH/Database/Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Common.php(361): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/Database/MigrationRunner.php(146): db_connect()
+ 5 SYSTEMPATH/Config/Services.php(421): CodeIgniter\Database\MigrationRunner->__construct()
+ 6 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::migrations()
+ 7 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH/Config/Services.php(416): CodeIgniter\Config\BaseService::getSharedInstance()
+ 9 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic()
+11 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get()
+12 SYSTEMPATH/Commands/Database/Migrate.php(70): service()
+13 SYSTEMPATH/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+14 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+15 SYSTEMPATH/Boot.php(351): CodeIgniter\CLI\Console->run()
+16 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand()
+17 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark()
+ERROR - 2024-12-23 13:22:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php:100
+Stack trace:
+#0 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query()
+#4 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /home/esat/workspace/codeigniter4/daisy/admin/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /home/esat/workspace/codeigniter4/daisy/admin/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-12-23 13:23:04 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php:100
+Stack trace:
+#0 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query()
+#4 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /home/esat/workspace/codeigniter4/daisy/admin/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /home/esat/workspace/codeigniter4/daisy/admin/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-12-23 13:23:48 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php:100
+Stack trace:
+#0 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/SQLite3/Connection.php(63): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(616): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query()
+#4 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /home/esat/workspace/codeigniter4/daisy/admin/system/Database/MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /home/esat/workspace/codeigniter4/daisy/admin/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /home/esat/workspace/codeigniter4/daisy/admin/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /home/esat/workspace/codeigniter4/daisy/admin/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /home/esat/workspace/codeigniter4/daisy/admin/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+CRITICAL - 2024-12-23 13:47:45 --> ErrorException: Undefined variable $users
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/esat/workspace/codeigniter4/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:47:46 --> ErrorException: Undefined variable $users
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/esat/workspace/codeigniter4/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:47:54 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:47:54 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:47:55 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:21 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:21 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:25 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:25 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:26 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:48:26 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:49:57 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:49:58 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:50:55 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 13:50:56 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:00:50 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:01:02 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:01:02 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:01:02 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:06:21 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:06:21 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:06:29 --> Error: Cannot use object of type CodeIgniter\Shield\Entities\User as array
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(16): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:28 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:30 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')
+CRITICAL - 2024-12-23 14:12:30 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: User/]
+in APPPATH/Views/User/index.php on line 4.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/User.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/esat/workspace/codeigniter4/daisy/admin/public/index.php')

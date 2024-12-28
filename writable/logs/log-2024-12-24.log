@@ -1,0 +1,56 @@
+CRITICAL - 2024-12-24 12:17:42 --> ErrorException: Undefined variable $Users
+[Method: GET, Route: User]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Users', '/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php', 3)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('User/index', [], true)
+ 5 APPPATH/Controllers/User.php(16): view('User/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:17:49 --> ErrorException: Undefined variable $Users
+[Method: GET, Route: User]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Users', '/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php', 3)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('User/index', [], true)
+ 5 APPPATH/Controllers/User.php(16): view('User/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:27:04 --> ErrorException: Undefined variable $Users
+[Method: GET, Route: User]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Users', '/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php', 3)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('User/index', [], true)
+ 5 APPPATH/Controllers/User.php(16): view('User/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:27:16 --> ErrorException: Undefined variable $Users
+[Method: GET, Route: User]
+in APPPATH/Views/User/index.php on line 3.
+ 1 APPPATH/Views/User/index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Users', '/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php', 3)
+ 2 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/daisy/admin/app/Views/User/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('User/index', [], true)
+ 5 APPPATH/Controllers/User.php(16): view('User/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
