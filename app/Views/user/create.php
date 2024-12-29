@@ -8,7 +8,7 @@ New User
 <body>
     <div class="container mt-5">
         <?= view('components/errors') ?>
-        <?= view('components/alert') ?>
+        <?= view('components/alert-data') ?>
         <h2 class="mb-4 text-center">Create a New User</h2>
         <form action="" method="post">
             <!-- Name -->

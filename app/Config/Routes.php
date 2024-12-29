@@ -22,3 +22,6 @@ $routes->post('user/(:any)/edit', 'UserController::save/$1');
 
 
 $routes->get('page', 'PageController::index');
+
+$routes->get('page/create', 'PageController::create');
+$routes->post('page/create', 'PageController::save');
