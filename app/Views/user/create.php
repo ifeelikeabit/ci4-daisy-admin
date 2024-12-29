@@ -7,6 +7,7 @@ New User
 
 <body>
     <div class="container mt-5">
+        <?= view('components/errors') ?>
         <?= view('components/alert') ?>
         <h2 class="mb-4 text-center">Create a New User</h2>
         <form action="" method="post">
@@ -15,7 +16,7 @@ New User
                 <label for="name" class="form-label">Full Name</label>
                 <div class="input-group">
                     <span class="input-group-text"><i class="fas fa-user"></i></span>
-                    <input type="text" class="form-control" id="name" name="name" required placeholder="Enter full name" />
+                    <input type="text" class="form-control" id="name" name="name" value="" required placeholder="Enter full name" />
                 </div>
             </div>
 
@@ -24,7 +25,7 @@ New User
                 <label for="email" class="form-label">Email address</label>
                 <div class="input-group">
                     <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                    <input type="email" class="form-control" id="email" name="email" required placeholder="Enter email" />
+                    <input type="email" class="form-control" id="email" name="email" value="<?= old('email') ?>" required placeholder="Enter email" />
                 </div>
             </div>
 
@@ -33,7 +34,7 @@ New User
                 <label for="phone" class="form-label">Phone Number</label>
                 <div class="input-group">
                     <span class="input-group-text"><i class="fas fa-phone"></i></span>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter phone number" />
+                    <input type="tel" class="form-control" id="phone" name="phone_number" value="<?= old('phone_number') ?>" placeholder="Enter phone number" />
                 </div>
             </div>
 

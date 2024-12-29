@@ -5,6 +5,7 @@ namespace App\Controllers;
 use Config\Database;
 use App\Models\User;
 use CodeIgniter\HTTP\Request;
+use PHPUnit\TextUI\XmlConfiguration\Validator;
 
 class UserController extends BaseController
 {
@@ -24,18 +25,18 @@ class UserController extends BaseController
         $user = $userModel->find($id);
         return view("user/show", ['user' => $user]);
     }
-
-    public function edit($id)
+    public function createview()
     {
-        return $id;
+        return view('user/create');
     }
+
 
     public function store()
     {
 
         $name = $this->request->getPost('name');
         $email = $this->request->getPost('email');
-        $phone = $this->request->getPost('phone_number');
+        $phone_number = $this->request->getPost('phone_number');
         $password = $this->request->getPost('password');
         $role = $this->request->getPost('role');
 
@@ -44,11 +45,15 @@ class UserController extends BaseController
         $data = [
             'name' => $name,
             'email' => $email,
-            'phone_number' => $phone,
+            'phone_number' => $phone_number,
             'password' => $password,
             'role' => $role
         ];
 
+        if (!$this->validate(rule('user'))) {
+            $errors = $this->validator->getErrors();
+            return view('/user/create', ['errors' => $errors]);
+        }
 
         if ($userModel->insert($data)) {
             return redirect()->to('/user/create')->with('success', 'User registered successfully!');
@@ -64,6 +69,46 @@ class UserController extends BaseController
             return redirect()->to('/user')->with('success', 'User deleted successfully!');
         } else {
             return redirect()->to('/user')->with('error', 'There was an issue deleting the user.');
+        }
+    }
+
+    public function edit($id)
+    {
+        $model = new User();
+        $user = $model->find($id);
+        return view('user/edit', ['user' => $user]);
+    }
+
+
+    public function save($id)
+    {
+
+        $name = $this->request->getPost('name');
+        $email = $this->request->getPost('email');
+        $phone_number = $this->request->getPost('phone_number');
+        $role = $this->request->getPost('role');
+
+        $model = new User();
+
+        $data = [
+            'name' => $name,
+            'email' => $email,
+            'phone_number' => $phone_number,
+            'role' => $role
+        ];
+
+        if (!$this->validate(rule('user_update'))) {
+            $errors = $this->validator->getErrors();
+            return view('user/edit', [
+                'user' =>  $model->find($id),
+                'errors' => $errors
+            ]);
+        }
+
+        if ($model->update($id, $data)) {
+            return view('/user/edit', ['success' => 'User updated successfully!','user' =>  $model->find($id)]);
+        } else {
+            return view("/user/edit", ['error' => 'There was an issue update the user.', 'user' =>  $model->find($id)]);
         }
     }
 }

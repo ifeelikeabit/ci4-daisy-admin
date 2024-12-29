@@ -4,6 +4,8 @@
         border: solid 1px
     }
 </style>
+
+<?=view('components/errors') ?>
 <table>
     <tr style="background-color: #dddddd;">
         <td>name</td>
