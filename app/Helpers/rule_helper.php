@@ -1,7 +1,5 @@
 <?php
-
-
-function rule($model)
+function rule($model, $id = -1)
 {
 
     $user = [
@@ -25,19 +23,52 @@ function rule($model)
         'status' => 'in_list[draft,published,archived]',
     ];
 
+    $page_edit = [
+        'title' => 'required|min_length[3]|max_length[255]',
+        'slug' => 'required|min_length[3]|max_length[255]',
+        'content' => 'required',
+        'status' => 'in_list[draft,published,archived]',
+    ];
+    $categories = [
+        'name' => "required|min_length[2]|max_length[255]|is_unique[categories.name,id,{$id}]",
+        'description' => 'required|min_length[2]|max_length[255]',
+        'parent_id' => 'permit_empty|integer',
+    ];
+
+    $ads = [
+        'user_id' => 'required|integer',
+        'category_id' => 'required|integer',
+        'title' => "required|min_length[2]|max_length[255]|is_unique[ads.title,id,{$id}]",
+        'description' => 'required|min_length[10]|max_length[1000]',
+        'price' => 'required|decimal',
+        'location' => 'required|min_length[2]|max_length[255]',
+        'image_url' => 'permit_empty|valid_url',
+        'status' => 'required|in_list[active,inactive,sold]',
+    ];
+
+
     switch ($model) {
         case 'user':
-            $jump = $user;
+            $rule = $user;
             break;
         case 'user_update':
-            $jump = $user_update;
+            $rule = $user_update;
             break;
         case 'page_create':
-            $jump = $page_create;
+            $rule = $page_create;
+            break;
+        case 'page_edit':
+            $rule = $page_create;
+            break;
+        case 'categories':
+            $rule = $categories;
+            break;
+        case 'ads':
+            $rule = $ads;
             break;
         default:
-            $jump = "rule not found";
+            $rule = "rule not found";
             break;
     }
-    return $jump;
+    return $rule;
 }

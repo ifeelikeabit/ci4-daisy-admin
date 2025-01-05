@@ -27,7 +27,7 @@ Pages
                     </tr>
                 </thead>
                 <tbody>
-                <a class="btn btn-primary" href="page/create">New</a>
+                    <a class="btn btn-primary" href="page/create">New</a>
                     <?php if (!empty($pages)): ?>
                         <?php foreach ($pages as $page): ?>
                             <tr>
@@ -38,9 +38,9 @@ Pages
                                 <td><?= $page['updated_at']  ?></td>
                                 <td>
                                     <div class="row">
-                                        <a class="btn btn-info" href="page/<?= $page['id'] ?>">show</a>
+                                        <a class="btn btn-info" href="page/<?= $page['slug'] ?>">show</a>
                                         <a class="btn btn-warning" href="page/edit/<?= $page['id'] ?>">edit</a>
-                                        <a class="btn btn-danger" href="page/delete/ <?= $page['id'] ?>">delete</a>
+                                        <a class="btn btn-danger" href="page/delete/<?= $page['id'] ?>">delete</a>
 
                                     </div>
                                 </td>

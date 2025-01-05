@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use Config\Database;
 use App\Models\User;
+use App\Models\Ads;
 use CodeIgniter\HTTP\Request;
 use PHPUnit\TextUI\XmlConfiguration\Validator;
 
@@ -13,7 +14,6 @@ class UserController extends BaseController
     {
         $userModel = new User();
 
-
         $users = $userModel->findAll();
 
         return view("user/index", ['users' => $users]);
@@ -22,8 +22,10 @@ class UserController extends BaseController
     public function show($id)
     {
         $userModel = new User();
+        $adsM = new Ads();
         $user = $userModel->find($id);
-        return view("user/show", ['user' => $user]);
+        $ads = $adsM->getAllAdWithForeigns($id);
+        return view("user/show", ['user' => $user , 'ads' => $ads]);
     }
     public function createview()
     {

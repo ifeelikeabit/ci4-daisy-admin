@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title><?= $this->renderSection('title') ?: ' ' ?></title>
+    <script src="/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- Custom fonts for this template-->
     <link href="<?php echo base_url(); ?>/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -27,96 +28,8 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                </div>
-                <div class="sidebar-brand-text mx-3">ADMIN PANEL</div>
-            </a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= base_url()?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Interface
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
-            </li>
-            <hr class="sidebar-divider">
-
-            <!--Manage -->
-            <div class="sidebar-heading">
-                Manage
-            </div>
-            <!-- Users -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsers"
-                    aria-expanded="true" aria-controls="collapseUsers">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Users</span>
-                </a>
-                <div id="collapseUsers" class="collapse" aria-labelledby="headingUsers" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="<?= base_url()?>user">User Table</a>
-                        <a class="collapse-item" href="<?= base_url()?>user/create">New User</a>
-                    </div>
-                </div>
-            </li>
-            <!-- Pages             -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-scroll"></i>
-                    <span>Pages</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="<?= base_url()?>page">Pages Table</a>
-                        <a class="collapse-item" href="<?= base_url()?>page/create">New Page</a>
-                    </div>
-                </div>
-            </li>
-
-
-
-
-
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
-
-            <!--inner sidebar ,keep element inside-->
-        </ul>
-
+        <!-- Sidebar  start -->
+   <?= view('layouts/sidebar') ?> <!-- Bu alan, sidebar section ile doldurulacak -->
 
         <!-- End of Sidebar -->
 
@@ -338,6 +251,7 @@
 
 
                     <div class="content">
+                    <?= view('components/links') ?>
                         <?= $this->renderSection('content') ?> <!-- Bu alan, content section ile doldurulacak -->
                     </div>
 
@@ -405,6 +319,8 @@
         <!-- Page level custom scripts -->
         <script src="<?php echo base_url(); ?>/static/js/demo/chart-area-demo.js"></script>
         <script src="<?php echo base_url(); ?>/static/js/demo/chart-pie-demo.js"></script>
+
+        <script src="https://cdn.tiny.cloud/1/eb7i6bgiox9p0q1r5bhxh8p7yx0w7l1mc9mjor83rgv241pq/tinymce/6/tinymce.min.js" ></script>
 
 </body>
 

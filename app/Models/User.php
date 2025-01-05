@@ -11,4 +11,10 @@ class User extends Model
     protected $allowedFields    = ['name', 'email', 'password', 'phone_number', 'role'];
 
     protected $useTimestamps = true;
+
+    public function getAllAdsFromUser($id){
+        $adsM = new Ads();
+        $ads = $adsM->where('user_id', $id)->findAll();
+        return $ads;
+    }
 }

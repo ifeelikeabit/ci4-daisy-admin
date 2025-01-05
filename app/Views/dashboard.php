@@ -4,35 +4,35 @@
 
 
 
-   <!-- Page Heading -->
-   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-                    </div>
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+</div>
 
-                    <!-- Buranın içindekiler yan yana gelicek -->
-                    <div class="row">
+<!-- Buranın içindekiler yan yana gelicek -->
+<div class="row">
+        <?= view('components/counter') ?>
+        <a class="fa fa-plus" href="javascript:void(0);" id="showFormBtn">Add</a>
+        <div class="row" id="addForm" style="display:none; ">
+            <?= view('components/addcounter') ?>    
+        </div>
+</div>
 
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Kullanıcı sayısı </div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">5</div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-user fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <script>
+                const showFormBtn = document.getElementById('showFormBtn');
+                const addForm = document.getElementById('addForm');
+
+                showFormBtn.addEventListener('click', function() {
+                        if (addForm.style.display === "none" || addForm.style.display === "") {
+                                addForm.style.display = "block";
+                        } else {
+                                addForm.style.display = "none";
+                        }
+                });
+        </script>
 
 
 
-
-<?= $this->endSection() ?>
+        <?= $this->endSection() ?>
